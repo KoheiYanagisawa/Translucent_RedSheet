@@ -1,0 +1,17 @@
+{
+  "name": "redsheet_test",
+  "productname": "赤シート",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "chcp 65001 && electron .",
+    "build": "electron-packager . redsheet_test --icon=icon.ico --platform=win32 --arch=x64 --overwrite --electron-version=26.1.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^17.1.2"
+  },
+  "description": ""
+}
